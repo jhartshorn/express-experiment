@@ -17,7 +17,7 @@ app.post('/handler', function (req, res){
   console.log(req.body.message);
 });
 
-app.listen(8000, function () {
+app.listen(80, function () {
   console.log('App listening on port 8000');
 });
 
